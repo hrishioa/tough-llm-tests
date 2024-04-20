@@ -1,0 +1,10 @@
+Pull out every company and person described in the Source, following this typespec and return only valid JSON:
+
+```typescript
+type RelevantEntities = {
+  name: string;
+  contact: string;
+  relevance: string;
+  reference: string; // Where was this referenced?
+}[];
+```

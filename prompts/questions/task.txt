@@ -1,0 +1,1 @@
+Source contains information about a dataset which I have sitting in front of an analysis tool that I've built. Can you give me 20 questions I can ask my tool that demonstrates its ability to combine different parts of the data, query it, slice it, and provide complex analytics and answers to hard questions?

@@ -1,0 +1,515 @@
+ModelA(Structured) :
+
+"""
+[
+  {
+    "contact": "",
+    "name": "Viet LE",
+    "reference": "Author of the article",
+    "relevance": "Venture perspective, LLM Tooling"
+  },
+  {
+    "contact": "",
+    "name": "Elad Gil",
+    "reference": "Quoted in the article",
+    "relevance": "Comment on AI adoption"
+  },
+  {
+    "contact": "",
+    "name": "Yann LeCun",
+    "reference": "Quoted in the article",
+    "relevance": "AI expert, OpenAI"
+  },
+  {
+    "contact": "",
+    "name": "OpenAI",
+    "reference": "Model provider",
+    "relevance": "LLM model dominance"
+  },
+  {
+    "contact": "",
+    "name": "Microsoft",
+    "reference": "Distribution partner of OpenAI",
+    "relevance": "LLM model distribution"
+  },
+  {
+    "contact": "",
+    "name": "GitHub Copilot",
+    "reference": "LLM-powered tool",
+    "relevance": "LLM adoption"
+  },
+  {
+    "contact": "",
+    "name": "Stable Diffusion",
+    "reference": "LLM-powered tool",
+    "relevance": "LLM adoption"
+  },
+  {
+    "contact": "",
+    "name": "Midjourney",
+    "reference": "LLM-powered tool",
+    "relevance": "LLM adoption"
+  },
+  {
+    "contact": "",
+    "name": "ChatGPT",
+    "reference": "LLM model",
+    "relevance": "LLM adoption"
+  },
+  {
+    "contact": "",
+    "name": "Runway ML",
+    "reference": "AI-native company",
+    "relevance": "LLM adoption"
+  },
+  {
+    "contact": "",
+    "name": "Fivetran",
+    "reference": "Data ingestion tool",
+    "relevance": "Modern Data Stack"
+  },
+  {
+    "contact": "",
+    "name": "Airbyte",
+    "reference": "Data ingestion tool",
+    "relevance": "Modern Data Stack"
+  },
+  {
+    "contact": "",
+    "name": "Snowflake",
+    "reference": "Data warehouse provider",
+    "relevance": "Modern Data Stack"
+  },
+  {
+    "contact": "",
+    "name": "dbt",
+    "reference": "Data transformation tool",
+    "relevance": "Modern Data Stack"
+  },
+  {
+    "contact": "",
+    "name": "Deepnote",
+    "reference": "Data visualization tool",
+    "relevance": "LLM Tooling"
+  },
+  {
+    "contact": "",
+    "name": "Hex",
+    "reference": "Data visualization tool",
+    "relevance": "LLM Tooling"
+  },
+  {
+    "contact": "",
+    "name": "Graphy",
+    "reference": "Data visualization tool",
+    "relevance": "LLM Tooling"
+  },
+  {
+    "contact": "",
+    "name": "Streamlit",
+    "reference": "Data visualization tool",
+    "relevance": "LLM Tooling"
+  },
+  {
+    "contact": "",
+    "name": "Retool",
+    "reference": "State of AI report",
+    "relevance": "LLM adoption and tooling"
+  },
+  {
+    "contact": "",
+    "name": "Langchain",
+    "reference": "LLM model provider",
+    "relevance": "LLM adoption and tooling"
+  },
+  {
+    "contact": "",
+    "name": "Llamaindex",
+    "reference": "LLM model provider",
+    "relevance": "LLM adoption and tooling"
+  },
+  {
+    "contact": "",
+    "name": "Braintrust Data",
+    "reference": "LLM model provider",
+    "relevance": "LLM adoption and tooling"
+  },
+  {
+    "contact": "",
+    "name": "Langfuse",
+    "reference": "LLM model provider",
+    "relevance": "LLM adoption and tooling"
+  },
+  {
+    "contact": "",
+    "name": "Pinecone",
+    "reference": "Vector database provider",
+    "relevance": "LLM Tooling"
+  },
+  {
+    "contact": "",
+    "name": "Chroma",
+    "reference": "Vector database provider",
+    "relevance": "LLM Tooling"
+  },
+  {
+    "contact": "",
+    "name": "MongoDB",
+    "reference": "Database provider",
+    "relevance": "LLM Tooling"
+  },
+  {
+    "contact": "",
+    "name": "Elastic",
+    "reference": "Database provider",
+    "relevance": "LLM Tooling"
+  },
+  {
+    "contact": "",
+    "name": "Neon",
+    "reference": "Database provider",
+    "relevance": "LLM Tooling"
+  },
+  {
+    "contact": "",
+    "name": "Supabase",
+    "reference": "Database provider",
+    "relevance": "LLM Tooling"
+  }
+]
+"""
+
+ModelE(Structured):
+
+"""
+[
+  {
+    "contact": "Neon",
+    "name": "Transactional database",
+    "reference": "Stripe, Hubspot, etc.",
+    "relevance": "Niche"
+  },
+  {
+    "contact": "Fivetran",
+    "name": "Data integration service provider",
+    "reference": "MDS and LLM tooling space",
+    "relevance": "Venture-scale business"
+  },
+  {
+    "contact": "Airbyte",
+    "name": "Data integration service provider",
+    "reference": "MDS and LLM tooling space",
+    "relevance": "Venture-scale business"
+  },
+  {
+    "contact": "Snowflake",
+    "name": "Data warehouse provider",
+    "reference": "MDS",
+    "relevance": "Paper unicorn"
+  },
+  {
+    "contact": "Google",
+    "name": "Cloud provider",
+    "reference": "MDS",
+    "relevance": "Not up for new challenges"
+  },
+  {
+    "contact": "dbt",
+    "name": "Data transformation tool provider",
+    "reference": "MDS",
+    "relevance": "Venture-scale business"
+  },
+  {
+    "contact": "Fivetran",
+    "name": "Data integration service provider",
+    "reference": "LLM Tooling space",
+    "relevance": "Venture-scale business"
+  },
+  {
+    "contact": "Airbyte",
+    "name": "Data integration service provider",
+    "reference": "LLM Tooling space",
+    "relevance": "Venture-scale business"
+  },
+  {
+    "contact": "Pinecone",
+    "name": "Vector database provider",
+    "reference": "LLM tooling space",
+    "relevance": "Company here is a venture-scale business"
+  },
+  {
+    "contact": "Chroma",
+    "name": "Vector database provider",
+    "reference": "LLM tooling space",
+    "relevance": "Venture-scale business"
+  },
+  {
+    "contact": "OpenAI",
+    "name": "LLM provider",
+    "reference": "LLM Tooling space",
+    "relevance": "Fast-moving pioneer in all things GenAI, dominating the market"
+  },
+  {
+    "contact": "Mistral",
+    "name": "LLM provider",
+    "reference": "LLM Tooling space",
+    "relevance": "Not a venture-scale business yet, but closing the gap rapidly"
+  },
+  {
+    "contact": "Anthropic",
+    "name": "LLM provider",
+    "reference": "LLM Tooling space",
+    "relevance": "Not a venture-scale business yet, but closing the gap rapidly"
+  },
+  {
+    "contact": "Vercel",
+    "name": "Frontend layer provider for modern AI-based web apps",
+    "reference": "LLM tooling space",
+    "relevance": "Not a venture-scale business yet"
+  },
+  {
+    "contact": "Huggingface/Gradio",
+    "name": "API-based deployment providers",
+    "reference": "LLM Tooling space",
+    "relevance": "Not a venture-scale business yet"
+  },
+  {
+    "contact": "Modal",
+    "name": "API-based deployment provider",
+    "reference": "LLM Tooling space",
+    "relevance": "Not a venture-scale business yet"
+  },
+  {
+    "contact": "Replicate",
+    "name": "API-based deployment provider",
+    "reference": "LLM Tooling space",
+    "relevance": "Not a venture-scale business yet"
+  },
+  {
+    "contact": "Langchain",
+    "name": "LLM orchestration and observation tool provider",
+    "reference": "LLM Tooling space",
+    "relevance": "Venture-scale business"
+  },
+  {
+    "contact": "Llamaindex",
+    "name": "LLM orchestration and observation tool provider",
+    "reference": "LLM Tooling space",
+    "relevance": "Not a venture-scale business yet"
+  },
+  {
+    "contact": "Braintrust Data",
+    "name": "LLM orchestration and observation tool provider",
+    "reference": "LLM Tooling space",
+    "relevance": "Not a venture-scale business yet"
+  },
+  {
+    "contact": "Langfuse",
+    "name": "LLM orchestration and observation tool provider",
+    "reference": "LLM Tooling space",
+    "relevance": "Not a venture-scale business yet"
+  }
+]
+"""
+
+
+ModelI(Structured):
+
+"""
+[
+  {
+    "contact": "",
+    "name": "Viet Le",
+    "reference": "",
+    "relevance": "+"
+  },
+  {
+    "contact": "",
+    "name": "OpenAI",
+    "reference": "Throughout the text, especially in sections 'Toolings to put LLMs  in use' and ‘LLM tooling Stack’ ",
+    "relevance": "Dominant company currently leading LLM tool development."
+  },
+  {
+    "contact": "",
+    "name": "+Microsoft",
+    "reference": "",
+    "relevance": "Distributing OpenAI models"
+  },
+  {
+    "contact": "",
+    "name": "Notions",
+    "reference": "Examples of companies using LLMs in the text.",
+    "relevance": "One company that has adopted LLM tooling."
+  },
+  {
+    "contact": "",
+    "name": "+Raycasts",
+    "reference": "",
+    "relevance": "Another example  of a startup adopting anLlm tool"
+  },
+  {
+    "contact": "",
+    "name": "Dbt",
+    "reference": "The text mentions the potential future outcome of LLM tools.",
+    "relevance": "A company that has been successful in data tooling."
+  }
+]
+"""
+
+ModelF(Structured):
+
+"""
+[
+  {
+    "contact": "Viet Le",
+    "name": "Viet Le",
+    "reference": "https://vietle.substack.com/p/timing-is-all-you-need",
+    "relevance": "Author"
+  },
+  {
+    "contact": "OpenAI, Microsoft",
+    "name": "OpenAI and Microsoft",
+    "reference": "https://vietle.substack.com/p/timing-is-all-you-need",
+    "relevance": "LLM provider dominating the market"
+  },
+  {
+    "contact": "Notion, ChatGPT",
+    "name": "Notion and ChatGPT",
+    "reference": "https://vietle.substack.com/p/timing-is-all-you-need",
+    "relevance": "Example of early adopters in the LLM space"
+  },
+  {
+    "contact": "Snowflake, Fivetran, dbt, Deepnote, Hex, Graphy, Metabase, Streamlit, Prefect, Monte Carlo, elastic, Neon, Supabase",
+    "name": "Modern Data Stack companies",
+    "reference": "https://vietle.substack.com/p/timing-is-all-you-need",
+    "relevance": "Companies in the modern data stack analogously mapped onto the LLM tooling space"
+  },
+  {
+    "contact": "Langchain, Llamaindex, Braintrust Data, Langfuse",
+    "name": "LLM Tooling companies",
+    "reference": "https://vietle.substack.com/p/timing-is-all-you-need",
+    "relevance": "Companies in the LLM tooling space"
+  },
+  {
+    "contact": "GitHub, Gitlab, Microsoft",
+    "name": "Software companies",
+    "reference": "https://vietle.substack.com/p/timing-is-all-you-need",
+    "relevance": "Potentially well-positioned to consolidate around LLM tooling"
+  },
+  {
+    "contact": "GitHub Copilot, Stable Diffusion, Midjourney, ChatGPT",
+    "name": "AI products",
+    "reference": "https://vietle.substack.com/p/timing-is-all-you-need",
+    "relevance": "Early AI applications that kickstarted the LLM tooling space"
+  }
+]
+"""
+
+ModelH(Structured):
+
+"""
+[
+  {
+    "contact": "Viet LE",
+    "name": "Viet LE",
+    "reference": "Author of the article",
+    "relevance": "High"
+  },
+  {
+    "contact": "Elad Gil",
+    "name": "Elad Gil",
+    "reference": "",
+    "relevance": "Mentioned in the article"
+  },
+  {
+    "contact": "Yann LeCun",
+    "name": "Yann LeCun",
+    "reference": "",
+    "relevance": "Mentioned in the article"
+  },
+  {
+    "contact": "OpenAI",
+    "name": "OpenAI",
+    "reference": "Model provider",
+    "relevance": "High"
+  },
+  {
+    "contact": "Microsoft",
+    "name": "Microsoft",
+    "reference": "Distributing OpenAI's models",
+    "relevance": "High"
+  },
+  {
+    "contact": "Mistral",
+    "name": "Mistral",
+    "reference": "Model provider",
+    "relevance": "Medium"
+  },
+  {
+    "contact": "Anthropic",
+    "name": "Anthropic",
+    "reference": "Model provider",
+    "relevance": "Medium"
+  },
+  {
+    "contact": "Google",
+    "name": "Google",
+    "reference": "Research lab",
+    "relevance": "High"
+  },
+  {
+    "contact": "Meta",
+    "name": "Meta",
+    "reference": "Research lab",
+    "relevance": "High"
+  },
+  {
+    "contact": "Notion",
+    "name": "Notion",
+    "reference": "Company using LLMs",
+    "relevance": "Medium"
+  },
+  {
+    "contact": "Raycast",
+    "name": "Raycast",
+    "reference": "Company using LLMs",
+    "relevance": "Medium"
+  },
+  {
+    "contact": "Adobe",
+    "name": "Adobe",
+    "reference": "Firefly usage",
+    "relevance": "High"
+  },
+  {
+    "contact": "GitHub Copilot",
+    "name": "GitHub Copilot",
+    "reference": "LLM-powered tool",
+    "relevance": "High"
+  },
+  {
+    "contact": "Stable Diffusion",
+    "name": "Stable Diffusion",
+    "reference": "LLM provider",
+    "relevance": "Medium"
+  },
+  {
+    "contact": "Midjourney",
+    "name": "Midjourney",
+    "reference": "LLM provider",
+    "relevance": "Medium"
+  },
+  {
+    "contact": "ChatGPT",
+    "name": "ChatGPT",
+    "reference": "LLM-powered tool",
+    "relevance": "High"
+  },
+  {
+    "contact": "Huggingface/Gradio",
+    "name": "Huggingface/Gradio",
+    "reference": "Model provider",
+    "relevance": "Medium"
+  }
+]
+"""

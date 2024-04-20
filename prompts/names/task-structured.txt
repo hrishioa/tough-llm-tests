@@ -1,0 +1,12 @@
+Source contains the information about a project I'm working on. I want your help naming it. Use science fiction and biology to come up with 20 names each and explain why they're a good fit. For each entry, give me one obvious name and one far less obvious esoteric name. Don't use portmanteaus or two words squished into one - they should just be one word.
+
+Output only JSON following this typespec:
+```typescript
+type Names = {
+  name: string;
+  lessObviousName: string;
+  reason: string;
+  lessObviousReason: string;
+  source: string; // Where is this from?
+}[]
+```

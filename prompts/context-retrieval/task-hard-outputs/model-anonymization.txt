@@ -1,0 +1,10 @@
+map:
+llama-3-q8: ModelA
+command-r: ModelB
+Claude-3-Sonnet: ModelC
+GPT-4: ModelD
+Mixtral: ModelE
+Dolphin: ModelF
+Llama-3-q3: ModelG
+Llama-3-70b: ModelH
+Gemma: ModelI

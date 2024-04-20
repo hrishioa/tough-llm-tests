@@ -1,0 +1,1 @@
+Source contains multiple functions for a tool-calling AI agent I have. First theorize what this agent could do, then give me 20 questions that I can ask the agent that will properly demonstrate all the functionality in it, ideally with cross-domain questions.

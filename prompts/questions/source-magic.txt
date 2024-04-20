@@ -1,0 +1,228 @@
+<Source>
+{
+    "colorIdentity": [
+      "G",
+      "R"
+    ],
+    "colors": [
+      "G",
+      "R"
+    ],
+    "convertedManaCost": 6,
+    "foreignData": [],
+    "layout": "normal",
+    "legalities": {},
+    "manaCost": "{2}{R}{R}{G}{G}",
+    "name": "\"Ach! Hans, Run!\"",
+    "printings": [
+      "UNH"
+    ],
+    "purchaseUrls": {
+      "cardmarket": "https://mtgjson.com/links/6227e6c981cce27c",
+      "tcgplayer": "https://mtgjson.com/links/85b366724beadefd"
+    },
+    "rulings": [],
+    "scryfallOracleId": "a2c5ee76-6084-413c-bb70-45490d818374",
+    "subtypes": [],
+    "supertypes": [],
+    "text": "At the beginning of your upkeep, you may say \"Ach Hans, run It's the . . .\" and the name of a creature card. If you do, search your library for a card with that name, put it onto the battlefield, then shuffle your library. That creature gains haste. Exile it at the beginning of the next end step.",
+    "type": "Enchantment",
+    "types": [
+      "Enchantment"
+    ],
+    "uuid": "8f9a35d5-a3a2-556b-88da-6686da3aaa34"
+  },
+  {
+    "colorIdentity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "convertedManaCost": 3,
+    "foreignData": [],
+    "layout": "normal",
+    "legalities": {},
+    "manaCost": "{2}{B}",
+    "name": "\"Rumors of My Death . . .\"",
+    "printings": [
+      "UST"
+    ],
+    "purchaseUrls": {
+      "cardmarket": "https://mtgjson.com/links/371e720c2fd4986f",
+      "tcgplayer": "https://mtgjson.com/links/f4da472f5769fc77"
+    },
+    "rulings": [],
+    "scryfallOracleId": "38bcba8b-2838-4ac8-9976-f9ccaa94fdba",
+    "subtypes": [],
+    "supertypes": [],
+    "text": "{3}{B}, Exile a permanent you control with a League of Dastardly Doom watermark: Return a permanent card with a League of Dastardly Doom watermark from your graveyard to the battlefield.",
+    "type": "Enchantment",
+    "types": [
+      "Enchantment"
+    ],
+    "uuid": "201f7042-dda1-53d6-a0bd-8225ba73f34a"
+  },
+  {
+    "colorIdentity": [
+      "B",
+      "G",
+      "R",
+      "U",
+      "W"
+    ],
+    "colors": [
+      "B",
+      "G",
+      "R",
+      "U",
+      "W"
+    ],
+    "convertedManaCost": 5,
+    "foreignData": [],
+    "layout": "normal",
+    "legalities": {},
+    "manaCost": "{W}{U}{B}{R}{G}",
+    "name": "1996 World Champion",
+    "printings": [
+      "PCEL"
+    ],
+    "rulings": [],
+    "scryfallOracleId": "39302443-4614-4e62-832a-b74eb2136bc7",
+    "subtypes": [
+      "Legend"
+    ],
+    "supertypes": [],
+    "text": "Cannot be the target of spells or effects. World Champion has power and toughness equal to the life total of target opponent.\n{0}: Discard your hand to search your library for 1996 World Champion and reveal it to all players. Shuffle your library and put 1996 World Champion on top of it. Use this ability only at the beginning of your upkeep, and only if 1996 World Champion is in your library.",
+    "type": "Summon — Legend",
+    "types": [
+      "Summon"
+    ],
+    "uuid": "6b0e48c0-441d-5a62-a558-3c99473e4387"
+  },
+  {
+    "colorIdentity": [],
+    "colors": [],
+    "convertedManaCost": 0,
+    "foreignData": [],
+    "layout": "scheme",
+    "legalities": {},
+    "name": "A Display of My Dark Power",
+    "printings": [
+      "OARC"
+    ],
+    "rulings": [
+      {
+        "date": "2010-06-15",
+        "text": "The ability affects all players, not just you."
+      },
+      {
+        "date": "2010-06-15",
+        "text": "The effect doesn’t wear off until just before your next untap step (even if an effect will cause that untap step to be skipped)."
+      },
+      {
+        "date": "2010-06-15",
+        "text": "The types of mana are white, blue, black, red, green, and colorless."
+      },
+      {
+        "date": "2010-06-15",
+        "text": "If a land produces more than one type of mana at a single time (as Boros Garrison does, for example), the land’s controller chooses which one of those types of mana is produced by the delayed triggered ability."
+      },
+      {
+        "date": "2010-06-15",
+        "text": "If a land is tapped for mana but doesn’t produce any (for example, if you tap Gaea’s Cradle for mana while you control no creatures), the delayed triggered ability won’t trigger."
+      }
+    ],
+    "scryfallOracleId": "156107a0-1657-4d04-904c-f8d19df32ff8",
+    "subtypes": [],
+    "supertypes": [],
+    "text": "When you set this scheme in motion, until your next turn, whenever a player taps a land for mana, that player adds one mana of any type that land produced.",
+    "type": "Scheme",
+    "types": [
+      "Scheme"
+    ],
+    "uuid": "5ccf5ac6-84e6-5ae8-a801-6e9cac2f1996"
+  },
+  {
+    "colorIdentity": [
+      "B",
+      "W"
+    ],
+    "colors": [
+      "B",
+      "W"
+    ],
+    "convertedManaCost": 6,
+    "foreignData": [],
+    "layout": "normal",
+    "legalities": {},
+    "manaCost": "{4}{W}{B}",
+    "name": "A Good Thing",
+    "printings": [
+      "MYSTPT"
+    ],
+    "rulings": [],
+    "scryfallOracleId": "9cfdc604-71de-44e4-8ba7-2a3ee03aab68",
+    "subtypes": [],
+    "supertypes": [],
+    "text": "Spells and abilities you control can't destroy, exile, target, or cause you to sacrifice A Good Thing.\nAt the beginning of your upkeep, double your life total. Then, if you have 1,000 or more life, you lose the game.",
+    "type": "Enchantment",
+    "types": [
+      "Enchantment"
+    ],
+    "uuid": "5e77de09-7521-54b6-b516-b7ed7740f7fe"
+  },
+  {
+    "colorIdentity": [],
+    "colors": [],
+    "convertedManaCost": 0,
+    "foreignData": [],
+    "layout": "scheme",
+    "legalities": {},
+    "name": "A Reckoning Approaches",
+    "printings": [
+      "OE01"
+    ],
+    "rulings": [],
+    "scryfallOracleId": "f8174641-3514-4811-9eb4-f0dc89ad79e1",
+    "subtypes": [],
+    "supertypes": [],
+    "text": "When you set this scheme in motion, look at the top six cards of your library. You may put a creature card from among them onto the battlefield. Put the rest on the bottom of your library in any order.",
+    "type": "Scheme",
+    "types": [
+      "Scheme"
+    ],
+    "uuid": "2d44a443-9c52-5614-ba7c-9757c877e827"
+  },
+  {
+    "colorIdentity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 3,
+    "foreignData": [],
+    "layout": "normal",
+    "legalities": {},
+    "manaCost": "{2}{W}",
+    "name": "AWOL",
+    "printings": [
+      "UNH"
+    ],
+    "purchaseUrls": {
+      "cardmarket": "https://mtgjson.com/links/ce3719aa2045b3dd",
+      "tcgplayer": "https://mtgjson.com/links/e2cbf59017afe314"
+    },
+    "rulings": [],
+    "scryfallOracleId": "3bf1ddcd-efde-4888-92f6-718be495b799",
+    "subtypes": [],
+    "supertypes": [],
+    "text": "Exile target attacking creature. Then remove it from the game. Then put it into the absolutely-removed-from-the-freaking-game-forever zone.",
+    "type": "Instant",
+    "types": [
+      "Instant"
+    ],
+    "uuid": "152c3769-234e-57bf-9804-4b28566dbb3f"
+  },
+</Source>

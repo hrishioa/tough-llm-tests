@@ -1,0 +1,1426 @@
+Outputs:
+
+Llama-3-q8:
+"""
+Here is the list of companies and people mentioned in the Source, formatted as a JSON array:
+
+```
+[
+  {
+    "name": "LLM Tooling",
+    "contact": "",
+    "relevance": "Venture perspective on LLM tooling",
+    "reference": ""
+  },
+  {
+    "name": "GitHub Copilot",
+    "contact": "",
+    "relevance": "Large-scale adoption among end-users",
+    "reference": "20"
+  },
+  {
+    "name": "Stable Diffusion",
+    "contact": "",
+    "relevance": "Large-scale adoption among end-users",
+    "reference": "20"
+  },
+  {
+    "name": "Midjourney",
+    "contact": "",
+    "relevance": "Large-scale adoption among end-users",
+    "reference": "20"
+  },
+  {
+    "name": "ChatGPT",
+    "contact": "",
+    "relevance": "Large-scale adoption among end-users",
+    "reference": "20"
+  },
+  {
+    "name": "OpenAI",
+    "contact": "",
+    "relevance": "Dominant player in LLM space",
+    "reference": "Throughout the text"
+  },
+  {
+    "name": "Microsoft",
+    "contact": "",
+    "relevance": "Distribution power and partnership with OpenAI",
+    "reference": "Throughout the text"
+  },
+  {
+    "name": "Mistral",
+    "contact": "",
+    "relevance": "Competitor to OpenAI in LLM space",
+    "reference": "20"
+  },
+  {
+    "name": "Anthropic",
+    "contact": "",
+    "relevance": "Competitor to OpenAI in LLM space",
+    "reference": "20"
+  },
+  {
+    "name": "Google",
+    "contact": "",
+    "relevance": "Research and development in AI",
+    "reference": "Throughout the text"
+  },
+  {
+    "name": "Meta",
+    "contact": "",
+    "relevance": "Research and development in AI",
+    "reference": "Throughout the text"
+  },
+  {
+    "name": "Fivetran",
+    "contact": "",
+    "relevance": "Tooling company in MDS space",
+    "reference": "20"
+  },
+  {
+    "name": "Airbyte",
+    "contact": "",
+    "relevance": "Tooling company in MDS space",
+    "reference": "20"
+  },
+  {
+    "name": "Snowflake",
+    "contact": "",
+    "relevance": "Company in MDS space",
+    "reference": "20"
+  },
+  {
+    "name": "dbt",
+    "contact": "",
+    "relevance": "Tooling company in MDS space",
+    "reference": "20"
+  },
+  {
+    "name": "Monte Carlo",
+    "contact": "",
+    "relevance": "Tooling company in MDS space",
+    "reference": "20"
+  },
+  {
+    "name": "Prefect",
+    "contact": "",
+    "relevance": "Tooling company in MDS space",
+    "reference": "20"
+  },
+  {
+    "name": "Synq",
+    "contact": "",
+    "relevance": "Tooling company in MDS space",
+    "reference": "20"
+  },
+  {
+    "name": "Pinecone",
+    "contact": "",
+    "relevance": "Company in LLM tooling space",
+    "reference": "20"
+  },
+  {
+    "name": "Chroma",
+    "contact": "",
+    "relevance": "Company in LLM tooling space",
+    "reference": "20"
+  },
+  {
+    "name": "MongoDB",
+    "contact": "",
+    "relevance": "Company with vector database capabilities",
+    "reference": "20"
+  },
+  {
+    "name": "Elastic",
+    "contact": "",
+    "relevance": "Company with vector database capabilities",
+    "reference": "20"
+  },
+  {
+    "name": "Neon",
+    "contact": "",
+    "relevance": "Company with vector database capabilities",
+    "reference": "20"
+  },
+  {
+    "name": "Supabase",
+    "contact": "",
+    "relevance": "Company with vector database capabilities",
+    "reference": "20"
+  },
+  {
+    "name": "Vercel",
+    "contact": "",
+    "relevance": "Company in LLM tooling space",
+    "reference": "20"
+  },
+  {
+    "name": "Huggingface/Gradio",
+    "contact": "",
+    "relevance": "Company in LLM tooling space",
+    "reference": "20"
+  },
+  {
+    "name": "Modal",
+    "contact": "",
+    "relevance": "Company in LLM tooling space",
+    "reference": "20"
+  },
+  {
+    "name": "Replicate",
+    "contact": "",
+    "relevance": "Company in LLM tooling space",
+    "reference": "20"
+  },
+  {
+    "name": "Yann LeCun",
+    "contact": "",
+    "relevance": "AI researcher and expert",
+    "reference": "20"
+  },
+  {
+    "name": "Elad Gil",
+    "contact": "",
+    "relevance": "Venture capitalist and AI expert",
+    "reference": "20"
+  }
+]
+```
+
+Note that some of these entities may not be directly relevant to the topic of LLM tooling, but were mentioned in the text as context or references.
+"""
+
+
+Claude-3-Sonnet:
+"""
+[
+  {
+    "name": "Anthropic",
+    "contact": "",
+    "relevance": "AI company producing large language models, mentioned as one of the companies catching up to OpenAI",
+    "reference": "Despite OpenAI's dominance, there are two main implications for the tooling space. In a somewhat monopolistic setup, OpenAI can reach escape velocity simply by leveraging economies of scale and an integrative approach. Through their distribution turbocharged by Microsoft, they can continue to lock in the users by providing the best models with the best availability and price. Locking in users means they can continue RLHF'ing at scale and might be able to tap into new or hard-to-access data to continue producing the best models that, in turn, further lock in the users. Integrative not only means going upstream in the stack but also moving downstream into the tooling layer - simply put - if you are using models mainly from one provider anyway, why not also use the tooling built by said provider and optimized for those models? Despite OpenAI playing the friendly platform and ecosystem guy, they have shown to fiercely expand across their value chain by going more agentic, bundling in data ingestion, and broader RAG functionalities. The low-hanging fruit capabilities that tooling startups want to capture will be eaten up by anything on OpenAI's product roadmap or handed off to Microsoft for the last-mile logistics."
+  },
+  {
+    "name": "Elad Gil",
+    "contact": "",
+    "relevance": "Quoted for his perspective on the time it takes for large enterprises to adopt new technologies like ChatGPT",
+    "reference": "Let me simply quote Elad Gil here: \"[ChatGPT's] launch was only 8-9 months ago, and GPT-4 did not come out until five months ago. Given that large enterprise planning cycles often take 3-6 months, and then prototyping and building will take a year for a large company, we are still very far away from peak AI usage or peak AI hype. Most large enterprises are still trying to analytically sort what \"AI\" means for them, and are still many quarters from embracing this new technology.\""
+  },
+  {
+    "name": "Google",
+    "contact": "",
+    "relevance": "Mentioned as one of the companies catching up to OpenAI in producing large language models",
+    "reference": "Despite OpenAI's dominance, there are two main implications for the tooling space. In a somewhat monopolistic setup, OpenAI can reach escape velocity simply by leveraging economies of scale and an integrative approach. Through their distribution turbocharged by Microsoft, they can continue to lock in the users by providing the best models with the best availability and price. Locking in users means they can continue RLHF'ing at scale and might be able to tap into new or hard-to-access data to continue producing the best models that, in turn, further lock in the users. Integrative not only means going upstream in the stack but also moving downstream into the tooling layer - simply put - if you are using models mainly from one provider anyway, why not also use the tooling built by said provider and optimized for those models? Despite OpenAI playing the friendly platform and ecosystem guy, they have shown to fiercely expand across their value chain by going more agentic, bundling in data ingestion, and broader RAG functionalities. The low-hanging fruit capabilities that tooling startups want to capture will be eaten up by anything on OpenAI's product roadmap or handed off to Microsoft for the last-mile logistics."
+  },
+  {
+    "name": "Microsoft",
+    "contact": "",
+    "relevance": "Mentioned as a partner of OpenAI, helping to distribute their models and expand their reach",
+    "reference": "Despite OpenAI's dominance, there are two main implications for the tooling space. In a somewhat monopolistic setup, OpenAI can reach escape velocity simply by leveraging economies of scale and an integrative approach. Through their distribution turbocharged by Microsoft, they can continue to lock in the users by providing the best models with the best availability and price. Locking in users means they can continue RLHF'ing at scale and might be able to tap into new or hard-to-access data to continue producing the best models that, in turn, further lock in the users. Integrative not only means going upstream in the stack but also moving downstream into the tooling layer - simply put - if you are using models mainly from one provider anyway, why not also use the tooling built by said provider and optimized for those models? Despite OpenAI playing the friendly platform and ecosystem guy, they have shown to fiercely expand across their value chain by going more agentic, bundling in data ingestion, and broader RAG functionalities. The low-hanging fruit capabilities that tooling startups want to capture will be eaten up by anything on OpenAI's product roadmap or handed off to Microsoft for the last-mile logistics."
+  },
+  {
+    "name": "Mistral",
+    "contact": "",
+    "relevance": "AI company producing large language models, mentioned as one of the companies catching up to OpenAI",
+    "reference": "If you survey your friends, you will see most of them still mostly use OpenAI's models, despite the Mistrals, Anthropics, and the Googles of this world closing the gap rapidly."
+  },
+  {
+    "name": "OpenAI",
+    "contact": "",
+    "relevance": "Leading AI company producing large language models like GPT-3 and GPT-4, dominating the market",
+    "reference": "As a result, many companies remain in passive observer mode as they cannot afford to deploy LLMs with a non-zero probability of talking nonsense, let alone chaining them in multi-step agentic workflows, as mistakes here accumulate and diverge exponentially."
+  },
+  {
+    "name": "Yann LeCun",
+    "contact": "",
+    "relevance": "AI researcher quoted for his perspective on the limitations of current large language models",
+    "reference": "One of the OGs in AI, Yann LeCun, even goes as far as saying that LLMs are not that smart as they lack common sense, a model of the world, reasoning, persistent memory, and hierarchical planning."
+  }
+]
+"""
+
+GPT-4 (ChatGPT):
+
+"""
+[
+  {
+      "name": "Viet Le",
+      "contact": "",
+      "relevance": "Author",
+      "reference": "Source article"
+  },
+  {
+      "name": "Notion",
+      "contact": "",
+      "relevance": "Non-AI software company",
+      "reference": "Adopted text and image generation"
+  },
+  {
+      "name": "Runway ML",
+      "contact": "",
+      "relevance": "AI-native company",
+      "reference": "Emergence contributed to GenAI space"
+  },
+  {
+      "name": "Sisense",
+      "contact": "",
+      "relevance": "BI software",
+      "reference": "BI solution in Modern Data Stack"
+  },
+  {
+      "name": "Looker",
+      "contact": "",
+      "relevance": "BI software",
+      "reference": "BI solution in Modern Data Stack"
+  },
+  {
+      "name": "Fivetran",
+      "contact": "",
+      "relevance": "Venture-scale business in data ingest",
+      "reference": "Modern Data Stack"
+  },
+  {
+      "name": "Airbyte",
+      "contact": "",
+      "relevance": "Venture-scale business in data ingest",
+      "reference": "Modern Data Stack and LLM Tooling"
+  },
+  {
+      "name": "Snowflake",
+      "contact": "",
+      "relevance": "Data warehouse provider",
+      "reference": "Modern Data Stack"
+  },
+  {
+      "name": "Google",
+      "contact": "",
+      "relevance": "Data warehouse provider (BigQuery)",
+      "reference": "Modern Data Stack"
+  },
+  {
+      "name": "dbt",
+      "contact": "",
+      "relevance": "Data transformation tool",
+      "reference": "Modern Data Stack"
+  },
+  {
+      "name": "Deepnote",
+      "contact": "",
+      "relevance": "Data visualization tool",
+      "reference": "Modern Data Stack"
+  },
+  {
+      "name": "Hex",
+      "contact": "",
+      "relevance": "Data visualization tool",
+      "reference": "Modern Data Stack"
+  },
+  {
+      "name": "Graphy",
+      "contact": "",
+      "relevance": "Data visualization tool",
+      "reference": "Modern Data Stack"
+  },
+  {
+      "name": "Metabase",
+      "contact": "",
+      "relevance": "Data visualization tool",
+      "reference": "Modern Data Stack"
+  },
+  {
+      "name": "Streamlit",
+      "contact": "",
+      "relevance": "Data visualization tool",
+      "reference": "Modern Data Stack"
+  },
+  {
+      "name": "Retool",
+      "contact": "",
+      "relevance": "Data visualization tool",
+      "reference": "Modern Data Stack"
+  },
+  {
+      "name": "Airflow",
+      "contact": "",
+      "relevance": "Data orchestration tool",
+      "reference": "Modern Data Stack"
+  },
+  {
+      "name": "Y42",
+      "contact": "",
+      "relevance": "Data orchestration tool",
+      "reference": "Modern Data Stack"
+  },
+  {
+      "name": "Dagster",
+      "contact": "",
+      "relevance": "Data orchestration tool",
+      "reference": "Modern Data Stack"
+  },
+  {
+      "name": "Monte Carlo",
+      "contact": "",
+      "relevance": "Data orchestration tool",
+      "reference": "Modern Data Stack"
+  },
+  {
+      "name": "Prefect",
+      "contact": "",
+      "relevance": "Data orchestration tool",
+      "reference": "Modern Data Stack"
+  },
+  {
+      "name": "Synq",
+      "contact": "",
+      "relevance": "Data orchestration tool",
+      "reference": "Modern Data Stack"
+  },
+  {
+      "name": "MongoDB",
+      "contact": "",
+      "relevance": "Conventional database provider",
+      "reference": "LLM Tooling"
+  },
+  {
+      "name": "Elastic",
+      "contact": "",
+      "relevance": "Conventional database provider",
+      "reference": "LLM Tooling"
+  },
+  {
+      "name": "Neon",
+      "contact": "",
+      "relevance": "Database provider",
+      "reference": "Modern Data Stack and LLM Tooling"
+  },
+  {
+      "name": "Supabase",
+      "contact": "",
+      "relevance": "Database provider",
+      "reference": "LLM Tooling"
+  },
+  {
+      "name": "OpenAI",
+      "contact": "",
+      "relevance": "Model provider, tooling stack",
+      "reference": "LLM Tooling"
+  },
+  {
+      "name": "Mistral",
+      "contact": "",
+      "relevance": "Model provider",
+      "reference": "LLM Tooling"
+  },
+  {
+      "name": "Anthropic",
+      "contact": "",
+      "relevance": "Model provider",
+      "reference": "LLM Tooling"
+  },
+  {
+      "name": "Vercel",
+      "contact": "",
+      "relevance": "Frontend layer for AI-based web apps",
+      "reference": "LLM Tooling"
+  },
+  {
+      "name": "Huggingface/Gradio",
+      "contact": "",
+      "relevance": "UI provider for LLM tooling",
+      "reference": "LLM Tooling"
+  },
+  {
+      "name": "Modal",
+      "contact": "",
+      "relevance": "UI provider for LLM tooling",
+      "reference": "LLM Tooling"
+  },
+  {
+      "name": "Replicate",
+      "contact": "",
+      "relevance": "UI provider for LLM tooling",
+      "reference": "LLM Tooling"
+  },
+  {
+      "name": "Langchain",
+      "contact": "",
+      "relevance": "Orchestration tool provider",
+      "reference": "LLM Tooling"
+  },
+  {
+      "name": "Llamaindex",
+      "contact": "",
+      "relevance": "Orchestration tool provider",
+      "reference": "LLM Tooling"
+  },
+  {
+      "name": "Braintrust Data",
+      "contact": "",
+      "relevance": "Orchestration tool provider",
+      "reference": "LLM Tooling"
+  },
+  {
+      "name": "Langfuse",
+      "contact": "",
+      "relevance": "Orchestration tool provider",
+      "reference": "LLM Tooling"
+  },
+  {
+      "name": "ChatGPT",
+      "contact": "",
+      "relevance": "OpenAI model",
+      "reference": "LLM Tooling"
+  },
+  {
+      "name": "Langdock",
+      "contact": "",
+      "relevance": "End-to-end LLM tool",
+      "reference": "LLM Tooling"
+  },
+  {
+      "name": "Perplexity",
+      "contact": "",
+      "relevance": "End-to-end LLM tool",
+      "reference": "LLM Tooling"
+  },
+  {
+      "name": "Harvey",
+      "contact": "",
+      "relevance": "Verticalized LLM tool",
+      "reference": "LLM Tooling"
+  },
+  {
+      "name": "Yann LeCun",
+      "contact": "",
+      "relevance": "AI researcher",
+      "reference": "LLM Tooling"
+  },
+  {
+      "name": "Elad Gil",
+      "contact": "",
+      "relevance": "Quoted expert",
+      "reference": "LLM Tooling"
+  },
+  {
+      "name": "Databricks",
+      "contact": "",
+      "relevance": "Analytics software company",
+      "reference": "Modern Data Stack"
+  }
+]
+"""
+
+
+CommandR:
+
+"""
+```json
+[
+    {
+        "name": "GitHub Copilot",
+        "relevance": "LLM Tooling",
+        "reference": "The emergence of GenAI and its impact on business"
+    },
+    {
+        "name": "Stable Diffusion",
+        "relevance": "LLM Tooling",
+        "reference": "LLM Toolings"
+    },
+    {
+        "name": "Midjourney",
+        "relevance": "LLM Tooling",
+        "reference": "LLM Toolings"
+    },
+    {
+        "name": "Runway ML",
+        "relevance": "AI-native company",
+        "reference": "GenAI space"
+    },
+    {
+        "name": "Fivetran",
+        "relevance": "Data Source Ingest",
+        "reference": "Modern Data Stack"
+    },
+    {
+        "name": "Airbyte",
+        "relevance": "Data Source Ingest",
+        "reference": "LLM Tooling, Modern Data Stack"
+    },
+    {
+        "name": "Neon",
+        "relevance": "Data Source",
+        "reference": "Modern Data Stack"
+    },
+    {
+        "name": "SaaS tools",
+        "relevance": "Data Source",
+        "reference": "LLM Tooling"
+    },
+    {
+        "name": "Supabase",
+        "relevance": "Store",
+        "reference": "LLM Tooling"
+    },
+    {
+        "name": "Pinecone",
+        "relevance": "Vector Database",
+        "reference": "LLM Tooling"
+    },
+    {
+        "name": "Chroma",
+        "relevance": "Vector Database",
+        "reference": "LLM Tooling"
+    },
+    {
+        "name": "MongoDB",
+        "relevance": "Store",
+        "reference": "LLM Tooling"
+    },
+    {
+        "name": "elastic",
+        "relevance": "Store",
+        "reference": "LLM Tooling"
+    },
+    {
+        "name": "OpenAI",
+        "relevance": "Model Provider",
+        "reference": "LLM Tooling"
+    },
+    {
+        "name": "Mistral",
+        "relevance": "Model Provider",
+        "reference": "LLM Tooling"
+    },
+    {
+        "name": "Anthropic",
+        "relevance": "Model Provider",
+        "reference": "LLM Tooling"
+    },
+    {
+        "name": "Vercel",
+        "relevance": "Play+Destination",
+        "reference": "LLM Frontend"
+    },
+    {
+        "name": "Huggingface/Gradio",
+        "relevance": "Play+Destination",
+        "reference": "LLM Deployment"
+    },
+    {
+        "name": "Modal",
+        "relevance": "Play+Destination",
+        "reference": "LLM Deployment"
+    },
+    {
+        "name": "Replicate",
+        "relevance": "Play+Destination",
+        "reference": "Headless LLM Deployment"
+    },
+    {
+        "name": "Langchain",
+        "relevance": "Orchestrate+Observe",
+        "reference": "LLM Tooling"
+    },
+    {
+        "name": "Llamaindex",
+        "relevance": "Orchestrate+Observe",
+        "reference": "LLM Tooling"
+    },
+    {
+        "name": "Braintrust Data",
+        "relevance": "Orchestrate+Observe",
+        "reference": "LLM Tooling"
+    },
+    {
+        "name": "Langfuse",
+        "relevance": "Orchestrate+Observe",
+        "reference": "LLM Tooling"
+    },
+    {
+        "name": "Unstructured.io",
+        "relevance": "Data Ingest",
+        "reference": "LLM Tooling"
+    },
+    {
+        "name": "Sid.ai",
+        "relevance": "Data Ingest",
+        "reference": "LLM Tooling"
+    },
+    {
+        "name": "Vectorflow",
+        "relevance": "Data Ingest",
+        "reference": "LLM Tooling"
+    },
+    {
+        "name": "Superlinked",
+        "relevance": "Data Ingest",
+        "reference": "LLM Tooling"
+    },
+    {
+        "name": "Airbyte",
+        "relevance": "Data Ingest",
+        "reference": "Modern Data Stack"
+    },
+    {
+        "name": "dbt",
+        "relevance": "Transform",
+        "reference": "Modern Data Stack"
+    },
+    {
+        "name": "Deepnote",
+        "relevance": "Play+Destination",
+        "reference": "Data Apps"
+    },
+    {
+        "name": "Graphy",
+        "relevance": "Play+Destination",
+        "reference": "Data Visualization"
+    },
+    {
+        "name": "Metabase",
+        "relevance": "Play+Destination",
+        "reference": "Data Apps"
+    },
+    {
+        "name": "Streamlit",
+        "relevance": "Play+Destination",
+        "reference": "Developer Environments"
+    },
+    {
+        "name": "Retool",
+        "relevance": "Play+Destination",
+        "reference": "Data Apps"
+    },
+    {
+        "name": "Airflow",
+        "relevance": "Orchestrate+Observe",
+        "reference": "Modern Data Stack"
+    },
+    {
+        "name": "Y42",
+        "relevance": "Orchestrate+Observe",
+        "reference": "Modern Data Stack"
+    },
+    {
+        "name": "Dagster",
+        "relevance": "Orchestrate+Observe",
+        "reference": "Modern Data Stack"
+    },
+    {
+        "name": "Monte Carlo",
+        "relevance": "Orchestrate+Observe",
+        "reference": "Modern Data Stack"
+    },
+    {
+        "name": "Synq",
+        "relevance": "Orchestrate+Observe",
+        "reference": "Modern Data Stack"
+    },
+    {
+        "name": "Notion",
+        "relevance": "Adopter of AI",
+        "reference": "LLM"
+    },
+    {
+        "name": "Raycast",
+        "relevance": "Adopter of AI",
+        "reference": "LLM"
+    },
+    {
+        "name": "Elad Gil",
+        "relevance": "Enterprise Adoption",
+        "reference": "Large Enterprise Planning Cycles"
+    },
+    {
+        "name": "Microsoft",
+        "relevance": "Distribution Partner",
+        "reference": "OpenAI"
+    },
+    {
+        "name": "Langchain",
+        "relevance": "LLM Download Proxy",
+        "reference": "LLM Tooling Market"
+    },
+    {
+        "name": "ChatGPT",
+        "relevance": "LLM Usage",
+        "reference": "LLM Tooling"
+    },
+    {
+        "name": "Dall-E",
+        "relevance": "OpenAI Multi Modal",
+        "reference": "LLMs"
+    },
+    {
+        "name": "Whisper",
+        "relevance": "OpenAI Multi Modal",
+        "reference": "LLMs"
+    },
+    {
+        "name": "Speech Synthesis",
+        "relevance": "OpenAI Multi Modal",
+        "reference": "LLMs"
+    },
+    {
+        "name": "GPT-4V",
+        "relevance": "Multi Modal LLM",
+        "reference": "LLM Tooling"
+    },
+    {
+        "name": "Gitlab",
+        "relevance": "Developer Tooling Outcome",
+        "reference": ""
+    },
+    {
+        "name": "GitHub",
+        "relevance": "Developer Tooling Outcome",
+        "reference": ""
+    },
+    {
+        "name": "OpenAI",
+        "relevance": "LLM Leader",
+        "reference": "LLM Tooling"
+    },
+    {
+        "name": "Microsoft",
+        "relevance": "LLM Leader Distribution",
+        "reference": "LLM Tooling"
+    },
+    {
+        "name": "Sisense",
+        "relevance": "Data Analytics Provider",
+        "reference": "Modern Data Stack"
+    },
+    {
+        "name": "Looker",
+        "relevance": "Data Analytics Provider",
+        "reference": "Modern Data Stack"
+    },
+    {
+        "name": "Databricks",
+        "relevance": "Analytics Fabric",
+        "reference": "Modern Data Stack"
+    },
+    {
+        "name": "Snowflake",
+        "relevance": "Analytics Fabric",
+        "reference": "Modern Data Stack"
+    }
+]
+```
+
+"""
+
+Mixtral:
+"""
+[
+  {
+    "name": "GitHub",
+    "contact": "github.com",
+    "relevance": "Software distribution",
+    "reference": "GitHub Copilot, Stable Diffusion, Midjourney, and ChatGPT are all built on top of GitHub's infrastructure"
+  },
+  {
+    "name": "Notion",
+    "contact": "notion.so",
+    "relevance": "Software distribution",
+    "reference": "Notion quickly added text and image generation as a feature on top of their products"
+  },
+  {
+    "name": "Neon",
+    "contact": "neon.tech",
+    "relevance": "Database provider",
+    "reference": "Venture-scale businesses are Fivetran or Airbyte, for example"
+  },
+  {
+    "name": "Stripe",
+    "contact": "stripe.com",
+    "relevance": "Payment processing",
+    "reference": "Raw data is typically pre-processed and then converted via so-called embeddings (simply said, this turns raw data into a contextualised ‘LLM-readable/retrievable’ format) to be able to tap on data the LLM has not seen and access to during pre-training"
+  },
+  {
+    "name": "Hubspot",
+    "contact": "hubspot.com",
+    "relevance": "SaaS tool",
+    "reference": "Raw data is typically pre-processed and then converted via so-called embeddings (simply said, this turns raw data into a contextualised ‘LLM-readable/retrievable’ format) to be able to tap on data the LLM has not seen and access to during pre-training"
+  },
+  {
+    "name": "Airbyte",
+    "contact": "airbyte.com",
+    "relevance": "Data ingestion",
+    "reference": "Venture-scale businesses are Fivetran or Airbyte, for example"
+  },
+  {
+    "name": "MongoDB",
+    "contact": "mongodb.com",
+    "relevance": "Database provider",
+    "reference": "Raw data is typically pre-processed and then converted via so-called embeddings (simply said, this turns raw data into a contextualised ‘LLM-readable/retrievable’ format) to be able to tap on data the LLM has not seen and access to during pre-training"
+  },
+  {
+    "name": "Elastic",
+    "contact": "elastic.co",
+    "relevance": "Database provider",
+    "reference": "Raw data is typically pre-processed and then converted via so-called embeddings (simply said, this turns raw data into a contextualised ‘LLM-readable/retrievable’ format) to be able to tap on data the LLM has not seen and access to during pre-training"
+  },
+  {
+    "name": "Supabase",
+    "contact": "supabase.io",
+    "relevance": "Database provider",
+    "reference": "Raw data is typically pre-processed and then converted via so-called embeddings (simply said, this turns raw data into a contextualised ‘LLM-readable/retrievable’ format) to be able to tap on data the LLM has not seen and access to during pre-training"
+  },
+  {
+    "name": "Fivetran",
+    "contact": "fivetran.com",
+    "relevance": "Data ingestion",
+    "reference": "Venture-scale businesses are Fivetran or Airbyte, for example"
+  },
+  {
+    "name": "Snowflake",
+    "contact": "snowflake.com",
+    "relevance": "Data storage and processing",
+    "reference": "The big players here are Snowflake and Google’s BigQuery"
+  },
+  {
+    "name": "Google",
+    "contact": "google.com",
+    "relevance": "Software distribution",
+    "reference": "Google’s BigQuery is one of the big players in data storage and processing"
+  },
+  {
+    "name": "OpenAI",
+    "contact": "openai.com",
+    "relevance": "LLM provider",
+    "reference": "OpenAI is probably putting the finishing touches on GPT-5 while we’re reading this piece"
+  },
+  {
+    "name": "Microsoft",
+    "contact": "microsoft.com",
+    "relevance": "Software distribution",
+    "reference": "Microsoft hosting an OpenAI model, and OpenAI is probably putting the finishing touches on GPT-5 while we’re reading this piece"
+  },
+  {
+    "name": "Mistral AI",
+    "contact": "mistral.ai",
+    "relevance": "LLM provider",
+    "reference": "Mistral is the hottest candidate to release a GPT-4 level this year"
+  },
+  {
+    "name": "Anthropic",
+    "contact": "anthropic.com",
+    "relevance": "LLM provider",
+    "reference": "OpenAI, Mistral AI, and the Googles of this world closing the gap rapidly"
+  },
+  {
+    "name": "Vercel",
+    "contact": "vercel.com",
+    "relevance": "Frontend layer for modern AI-based web apps",
+    "reference": "Vercel has positioned itself as the frontend layer for modern AI-based web apps"
+  },
+  {
+    "name": "Huggingface/Gradio",
+    "contact": "huggingface.com",
+    "relevance": "API-based or ‘headless’ deployments",
+    "reference": "Same for companies like Huggingface/Gradio, Modal, or Replicate for API-based or ‘headless’ deployments"
+  },
+  {
+    "name": "Modal",
+    "contact": "modal.com",
+    "relevance": "API-based or ‘headless’ deployments",
+    "reference": "Same for companies like Huggingface/Gradio, Modal, or Replicate for API-based or ‘headless’ deployments"
+  },
+  {
+    "name": "Replicate",
+    "contact": "replicate.com",
+    "relevance": "API-based or ‘headless’ deployments",
+    "reference": "Same for companies like Huggingface/Gradio, Modal, or Replicate for API-based or ‘headless’ deployments"
+  },
+  {
+    "name": "Langchain AI",
+    "contact": "langchain.ai",
+    "relevance": "LLM provider",
+    "reference": "Langchain states that OpenAI and AzureOpenAI (which is basically Microsoft hosting an OpenAI model) are the top two models developers in their ecosystem use"
+  },
+  {
+    "name": "Llamaindex AI",
+    "contact": "llamaindex.ai",
+    "relevance": "LLM provider",
+    "reference": "Companies here are Langchain, Llamaindex, Braintrust Data, or Langfuse"
+  },
+  {
+    "name": "Braintrust Data",
+    "contact": "braintrust.com",
+    "relevance": "LLM provider",
+    "reference": "Companies here are Langchain, Llamaindex, Braintrust Data, or Langfuse"
+  },
+  {
+    "name": "Langfuse AI",
+    "contact": "langfuse.com",
+    "relevance": "LLM provider",
+    "reference": "Companies here are Langchain, Llamaindex, Braintrust Data, or Langfuse"
+  }
+]
+"""
+
+Dolphin:
+
+"""
+[
+  {
+    "name": "Timing is all you need",
+    "contact": "",
+    "relevance": "Author of the piece",
+    "reference": "https://www.vietle.com/"
+  },
+  {
+    "name": "LLM Toolings",
+    "contact": "",
+    "relevance": "Subject of the analysis",
+    "reference": ""
+  },
+  {
+    "name": "Modern Data Stack",
+    "contact": "",
+    "relevance": "Analogy to LLM Tooling",
+    "reference": ""
+  },
+  {
+    "name": "Viet Le",
+    "contact": "",
+    "relevance": "Author of the piece",
+    "reference": "https://www.vietle.com/"
+  },
+  {
+    "name": "OpenAI",
+    "contact": "",
+    "relevance": "Model provider dominating the market",
+    "reference": ""
+  },
+  {
+    "name": "Microsoft",
+    "contact": "",
+    "relevance": "Distribution partner of OpenAI",
+    "reference": ""
+  },
+  {
+    "name": "GitHub Copilot",
+    "contact": "",
+    "relevance": "Early example of large-scale AI adoption in software development",
+    "reference": ""
+  },
+  {
+    "name": "Stable Diffusion",
+    "contact": "",
+    "relevance": "Early example of large-scale AI adoption in generative art and creativity",
+    "reference": ""
+  },
+  {
+    "name": "Mistral",
+    "contact": "",
+    "relevance": "Competing LLM provider",
+    "reference": ""
+  },
+  {
+    "name": "Anthropic",
+    "contact": "",
+    "relevance": "Competing LLM provider",
+    "reference": ""
+  },
+  {
+    "name": "Sisense",
+    "contact": "",
+    "relevance": "Successful BI company in the past",
+    "reference": ""
+  },
+  {
+    "name": "Looker",
+    "contact": "",
+    "relevance": "Successful BI company in the past",
+    "reference": ""
+  },
+  {
+    "name": "dbt",
+    "contact": "",
+    "relevance": "Successful BI tool",
+    "reference": ""
+  },
+  {
+    "name": "Neon",
+    "contact": "",
+    "relevance": "Database provider and part of the modern data stack",
+    "reference": ""
+  },
+  {
+    "name": "Supabase",
+    "contact": "",
+    "relevance": "Backend-as-a-Service company that provides PostgreSQL, Auth, Storage, and GraphQL API",
+    "reference": ""
+  },
+  {
+    "name": "Heavynet",
+    "contact": "",
+    "relevance": "Provider of a vector database for AI applications",
+    "reference": ""
+  },
+  {
+    "name": "Google",
+    "contact": "",
+    "relevance": "Competing LLM provider",
+    "reference": ""
+  },
+  {
+    "name": "Meta",
+    "contact": "",
+    "relevance": "Competing LLM provider",
+    "reference": ""
+  }
+]
+"""
+
+
+LLama-3-Q3:
+
+
+"""
+Here is the list of companies and people mentioned in the text, formatted as a JSON array:
+
+```
+[
+  {
+    "name": "LLM Tooling",
+    "contact": "",
+    "relevance": "LLM Tooling space",
+    "reference": ""
+  },
+  {
+    "name": "GitHub Copilot",
+    "contact": "",
+    "relevance": "GenAI adoption",
+    "reference": "adoption and retention of LLM capabilities lag behind expectations"
+  },
+  {
+    "name": "Stable Diffusion",
+    "contact": "",
+    "relevance": "LLM Tooling space",
+    "reference": ""
+  },
+  {
+    "name": "Midjourney",
+    "contact": "",
+    "relevance": "LLM Tooling space",
+    "reference": ""
+  },
+  {
+    "name": "ChatGPT",
+    "contact": "",
+    "relevance": "GenAI adoption",
+    "reference": "adoption and retention of LLM capabilities lag behind expectations"
+  },
+  {
+    "name": "OpenAI",
+    "contact": "",
+    "relevance": "LLM Tooling space",
+    "reference": ""
+  },
+  {
+    "name": "Microsoft",
+    "contact": "",
+    "relevance": "LLM Tooling space",
+    "reference": ""
+  },
+  {
+    "name": "Yann LeCun",
+    "contact": "",
+    "relevance": "LLM capabilities",
+    "reference": "RAG and finetuning can help here, but how many internal teams can maintain a barebone RAG stack at scale..."
+  },
+  {
+    "name": "Elad Gil",
+    "contact": "",
+    "relevance": "GenAI adoption",
+    "reference": ""
+  },
+  {
+    "name": "Retool",
+    "contact": "",
+    "relevance": "LLM Tooling space",
+    "reference": ""
+  },
+  {
+    "name": "Langchain",
+    "contact": "",
+    "relevance": "LLM Tooling space",
+    "reference": ""
+  },
+  {
+    "name": "Braintrust Data",
+    "contact": "",
+    "relevance": "LLM capabilities",
+    "reference": "RAG and finetuning can help here, but how many internal teams can maintain a barebone RAG stack at scale..."
+  },
+  {
+    "name": "Vercel",
+    "contact": "",
+    "relevance": "LLM Tooling space",
+    "reference": ""
+  },
+  {
+    "name": "Huggingface/Gradio",
+    "contact": "",
+    "relevance": "LLM Tooling space",
+    "reference": ""
+  },
+  {
+    "name": "Modal",
+    "contact": "",
+    "relevance": "LLM Tooling space",
+    "reference": ""
+  },
+  {
+    "name": "Replicate",
+    "contact": "",
+    "relevance": "LLM Tooling space",
+    "reference": ""
+  },
+  {
+    "name": "Fivetran",
+    "contact": "",
+    "relevance": "Modern Data Stack",
+    "reference": ""
+  },
+  {
+    "name": "Airbyte",
+    "contact": "",
+    "relevance": "Modern Data Stack",
+    "reference": ""
+  },
+  {
+    "name": "Snowflake",
+    "contact": "",
+    "relevance": "Modern Data Stack",
+    "reference": ""
+  },
+  {
+    "name": "Google",
+    "contact": "",
+    "relevance": "LLM Tooling space",
+    "reference": ""
+  },
+  {
+    "name": "Meta",
+    "contact": "",
+    "relevance": "LLM Tooling space",
+    "reference": ""
+  }
+]
+```
+
+Note that some of these entities may not have direct contact information, as they are companies or organizations rather than individuals.
+"""
+
+
+LLama-3-70B:
+
+"""
+[
+  {
+    "name": "GitHub",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "When GitHub Copilot, Stable Diffusion, Midjourney, and ChatGPT emerged in 2022..."
+  },
+  {
+    "name": "Notion",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "non-AI software companies like Notion quickly added text and image generation as a feature on top of their products"
+  },
+  {
+    "name": "Runway ML",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "entirely new AI-native companies that could not exist before, like Runway ML, emerged, and some even majorly contributed to the birth of the GenAI space"
+  },
+  {
+    "name": "Fivetran",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Venture-scale businesses are Fivetran or Airbyte, for example."
+  },
+  {
+    "name": "Airbyte",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Venture-scale businesses are Fivetran or Airbyte, for example."
+  },
+  {
+    "name": "Snowflake",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "The big players here are Snowflake and Google’s BigQuery."
+  },
+  {
+    "name": "Google",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "The big players here are Snowflake and Google’s BigQuery."
+  },
+  {
+    "name": "dbt",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "The most well-known company here is dbt."
+  },
+  {
+    "name": "Deepnote",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Venture-scale companies are Deepnote, Hex, Graphy, Metabase, Streamlit, or Retool."
+  },
+  {
+    "name": "Hex",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Venture-scale companies are Deepnote, Hex, Graphy, Metabase, Streamlit, or Retool."
+  },
+  {
+    "name": "Graphy",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Venture-scale companies are Deepnote, Hex, Graphy, Metabase, Streamlit, or Retool."
+  },
+  {
+    "name": "Metabase",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Venture-scale companies are Deepnote, Hex, Graphy, Metabase, Streamlit, or Retool."
+  },
+  {
+    "name": "Streamlit",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Venture-scale companies are Deepnote, Hex, Graphy, Metabase, Streamlit, or Retool."
+  },
+  {
+    "name": "Retool",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Venture-scale companies are Deepnote, Hex, Graphy, Metabase, Streamlit, or Retool."
+  },
+  {
+    "name": "Airflow",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Tools include Airflow, Y42, Dagster, Monte Carlo, Prefect, and Synq."
+  },
+  {
+    "name": "Y42",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Tools include Airflow, Y42, Dagster, Monte Carlo, Prefect, and Synq."
+  },
+  {
+    "name": "Dagster",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Tools include Airflow, Y42, Dagster, Monte Carlo, Prefect, and Synq."
+  },
+  {
+    "name": "Monte Carlo",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Tools include Airflow, Y42, Dagster, Monte Carlo, Prefect, and Synq."
+  },
+  {
+    "name": "Prefect",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Tools include Airflow, Y42, Dagster, Monte Carlo, Prefect, and Synq."
+  },
+  {
+    "name": "Synq",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Tools include Airflow, Y42, Dagster, Monte Carlo, Prefect, and Synq."
+  },
+  {
+    "name": "unstructured.io",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Companies here are unstructured.io, sid.ai, Vectorflow, Superlinked, and Airbyte, an established MDS player."
+  },
+  {
+    "name": "sid.ai",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Companies here are unstructured.io, sid.ai, Vectorflow, Superlinked, and Airbyte, an established MDS player."
+  },
+  {
+    "name": "Vectorflow",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Companies here are unstructured.io, sid.ai, Vectorflow, Superlinked, and Airbyte, an established MDS player."
+  },
+  {
+    "name": "Superlinked",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Companies here are unstructured.io, sid.ai, Vectorflow, Superlinked, and Airbyte, an established MDS player."
+  },
+  {
+    "name": "Pinecone",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Companies here are Pinecone, Chroma, and also conventional database providers that add these capabilities on top of their offerings like MongoDB, elastic, or Neon and Supabase via pgvector."
+  },
+  {
+    "name": "Chroma",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Companies here are Pinecone, Chroma, and also conventional database providers that add these capabilities on top of their offerings like MongoDB, elastic, or Neon and Supabase via pgvector."
+  },
+  {
+    "name": "MongoDB",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Companies here are Pinecone, Chroma, and also conventional database providers that add these capabilities on top of their offerings like MongoDB, elastic, or Neon and Supabase via pgvector."
+  },
+  {
+    "name": "elastic",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Companies here are Pinecone, Chroma, and also conventional database providers that add these capabilities on top of their offerings like MongoDB, elastic, or Neon and Supabase via pgvector."
+  },
+  {
+    "name": "Neon",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Companies here are Pinecone, Chroma, and also conventional database providers that add these capabilities on top of their offerings like MongoDB, elastic, or Neon and Supabase via pgvector."
+  },
+  {
+    "name": "Supabase",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Companies here are Pinecone, Chroma, and also conventional database providers that add these capabilities on top of their offerings like MongoDB, elastic, or Neon and Supabase via pgvector."
+  },
+  {
+    "name": "OpenAI",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "OpenAI’s models, coupled with Microsoft’s distribution power, are dominating"
+  },
+  {
+    "name": "Microsoft",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "OpenAI’s models, coupled with Microsoft’s distribution power, are dominating"
+  },
+  {
+    "name": "Mistral",
+    "contact": "",
+    "relevance": "Company",
+    "reference": "Other models are catching up, with Mistral being the hottest candidate to release a GPT-4 level this year."
+  }
+]
+  """

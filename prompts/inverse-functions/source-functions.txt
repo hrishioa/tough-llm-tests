@@ -1,0 +1,111 @@
+<Source>
+functions = [
+  {
+    "name": "display_quiz",
+    "description": "Displays a quiz to the student, and returns the student's response. A single quiz can have multiple questions.",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "title": {"type": "string"},
+            "questions": {
+                "type": "array",
+                "description": "An array of questions, each with a title and potentially options (if multiple choice).",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "question_text": {"type": "string"},
+                        "question_type": {
+                            "type": "string",
+                            "enum": ["MULTIPLE_CHOICE", "FREE_RESPONSE"],
+                        },
+                        "choices": {"type": "array", "items": {"type": "string"}},
+                    },
+                    "required": ["question_text"],
+                },
+            },
+        },
+        "required": ["title", "questions"],
+    },
+},
+    {
+        "name": "get_articles",
+        "description": """Use this function to get academic papers from arXiv to answer user questions.""",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": f"""
+                            User query in JSON. Responses should be summarized and should include the article URL reference
+                            """,
+                }
+            },
+            "required": ["query"],
+        },
+    },
+    {
+        "name": "read_article_and_summarize",
+        "description": """Use this function to read whole papers and provide a summary for users.
+        You should NEVER call this function before get_articles has been called in the conversation.""",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": f"""
+                            Description of the article in plain text based on the user's query
+                            """,
+                }
+            },
+            "required": ["query"],
+        },
+    },
+    {'type': 'function',
+ 'function': {'name': 'listEvents',
+              'description': 'List all events',
+              'parameters': {'type': 'object', 'properties': {}}}}
+
+{'type': 'function',
+ 'function': {'name': 'createEvent',
+              'description': 'Create a new event',
+              'parameters': {'type': 'object',
+                             'properties': {'requestBody': {'type': 'object',
+                                                            'properties': {'id': {'type': 'string'},
+                                                                           'name': {'type': 'string'},
+                                                                           'date': {'type': 'string',
+                                                                                    'format': 'date-time'},
+                                                                           'location': {'type': 'string'}},
+                                                            'required': ['name',
+                                                                         'date',
+                                                                         'location']}}}}}
+
+{'type': 'function',
+ 'function': {'name': 'getEventById',
+              'description': 'Retrieve an event by ID',
+              'parameters': {'type': 'object',
+                             'properties': {'parameters': {'type': 'object',
+                                                           'properties': {'id': {'type': 'string'}}}}}}}
+
+{'type': 'function',
+ 'function': {'name': 'deleteEvent',
+              'description': 'Delete an event by ID',
+              'parameters': {'type': 'object',
+                             'properties': {'parameters': {'type': 'object',
+                                                           'properties': {'id': {'type': 'string'}}}}}}}
+
+{'type': 'function',
+ 'function': {'name': 'updateEventDetails',
+              'description': "Update an event's details by ID",
+              'parameters': {'type': 'object',
+                             'properties': {'requestBody': {'type': 'object',
+                                                            'properties': {'name': {'type': 'string'},
+                                                                           'date': {'type': 'string',
+                                                                                    'format': 'date-time'},
+                                                                           'location': {'type': 'string'}},
+                                                            'required': ['name',
+                                                                         'date',
+                                                                         'location']},
+                                            'parameters': {'type': 'object',
+                                                           'properties': {'id': {'type': 'string'}}}}}}}
+]
+</Source>
